@@ -41,20 +41,22 @@
         <div class="container">
             <div class="row mt-71 ">
                 <div class="col-4">
-                    <img src="./assets/images/png/main1-image.png" alt="image" class="w-100">
+                    <img src="./assets/images/png/main1-image.png" alt="image" class="w-100 main-img">
                 </div>
                 <div class="col-8">
                     <p class="path fw_sm fs_md">Home > Username</p>
-                    <div>
+                    <div class="d-flex justify-content-between align-items-center">
                         <h2 class="name fw_lg fs_2xl">Jhone Doe</h2>
-                        <button></button>
-                        <button></button>
+                        <div class="d-flex justify-content-between max-w-500">
+                            <button class="feed fw_lg fs_lg text-light feed-button ">Unshow Journey of Feed</button>
+                            <button class="feed fw_lg fs_lg text-light feed-button">Show Journey of Feed</button>
+                        </div>
                     </div>
                     <p class="description fw_sm fs_md">Dictumst vulputate eget quisque iaculis hendrerit quis ut
                         fringilla. Senectus gravida sed interdum pretium at quam
                         morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut
                         vitae dolor fringilla urnaeget aliquet.</p>
-                    <div class="d-flex  justify-content-between">
+                    <div class="d-flex  justify-content-between max-w-572">
                         <div class="d-flex align-items-center">
                             <img src="./assets/images/svg/calendar.svg" alt="calender">
                             <p class="data ml-10 fw_sm fs_lg mb-0">10/02/2022</p>
@@ -78,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-130">
+            <div class="row mt-130 d-flex align-items-center">
                 <div class="col-6">
                     <div><img src="./assets/images/svg/quotation.svg" alt="quotation mark"></div>
                     <p class="description mt-22 fw_sm fs_lg">Semper faucibus suscipit ultricies eleifend semper sit
@@ -94,7 +96,11 @@
                         vulputate.</p>
                 </div>
                 <div class="col-6">
-                    <img src="./assets/images/png/main2-image.png" alt="image" class="w-100">
+                <iframe width="560" height="315" class="video-radius w-100 " src="https://www.youtube.com/embed/KH2VpBWDGM8?si=vCI8T-hWzvW1eMbY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                 </div>
             </div>
             <div class="mt-55">
@@ -103,12 +109,12 @@
                     <p class="gallery fw_lg fs_2xl">Gallery</p>
                 </div>
                 <div class="parent">
-                    <div class="div1"> <img src="./assets/images/png/gallery-img1.png" alt="image1"></div>
-                    <div class="div2"><img src="./assets/images/png/gallery-img2.png" alt="image2"> </div>
-                    <div class="div3"><img src="./assets/images/png/gallery-img3.png" alt="image3"> </div>
-                    <div class="div4"><img src="./assets/images/png/gallery-img4.png" alt="image4"> </div>
-                    <div class="div5"><img src="./assets/images/png/gallery-img5.png" alt="image5"> </div>
-                    <div class="div6"><img src="./assets/images/png/gallery-img6.png" alt="image6"> </div>
+                    <div class="div1"> <img src="./assets/images/png/gallery-img1.png" alt="image1 " class="main1-img"></div>
+                    <div class="div2"><img src="./assets/images/png/gallery-img2.png" alt="image2  " class="main1-img"> </div>
+                    <div class="div3"><img src="./assets/images/png/gallery-img3.png" alt="image3 " class="main1-img"> </div>
+                    <div class="div4"><img src="./assets/images/png/gallery-img4.png" alt="image4 " class="main1-img"> </div>
+                    <div class="div5"><img src="./assets/images/png/gallery-img5.png" alt="image5 " class="main1-img"> </div>
+                    <div class="div6"><img src="./assets/images/png/gallery-img6.png" alt="image6" class="main1-img"> </div>
                 </div>
             </div>
             <div>
@@ -120,12 +126,196 @@
                     dolor fringilla urna
                     eget aliquet.</p>
             </div>
-            <div class="box1 d-flex justify-content-between">
-                <div class="d-flex ml-10 align-items-center">
-                    <img src="./assets/images/svg/profile.svg" alt="proflie picture">
-                    <p class=" new-comment fw_sm fs_xl mb-0 ml-20">Add a new comment</p>
+            <div class="position-relative">
+                <input type="text" placeholder="Add a new comment" class="input">
+                <img src="./assets/images/svg/profile.svg" alt="profile"  class="profile">
+                <button class="post-comment fw_lg fs_xl">Post Comment</button>
+            </div>
+            <div class="pt-47">
+                <div class="d-flex align-items-start mb-24">
+                    <img src="./assets/images/svg/profile1.svg" alt="profile1">
+                    <div>
+                        <div class="box2 ml-20">
+                            <p class="username fw_md fs_lg text-dark">Username</p>
+                            <p class="comment fw_sm fs_lg ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-8">
+                            <img src="./assets/images/svg/delete.svg" alt="delete" class="ml-30">
+                            <p class="remove-comment fw_sm fs_lg mb-0 ml-5">Remove Comment</p>
+                        </div>
+                    </div>
                 </div>
-                <button class="post-comment fw_lg fs_lg">Post Comment</button>
+                <div class="d-flex align-items-start mb-24">
+                    <img src="./assets/images/svg/profile2.svg" alt="profile2">
+                    <div>
+                        <div class="box2 ml-20">
+                            <p class="username fw_md fs_lg text-dark">Username</p>
+                            <p class="comment fw_sm fs_lg ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-8">
+                            <img src="./assets/images/svg/delete.svg" alt="delete" class="ml-30">
+                            <p class="remove-comment fw_sm fs_lg mb-0 ml-5">Remove Comment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-24">
+                    <img src="./assets/images/svg/profile3.svg" alt="profile3">
+                    <div>
+                        <div class="box2 ml-20">
+                            <p class="username fw_md fs_lg text-dark">Username</p>
+                            <p class="comment fw_sm fs_lg ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-8">
+                            <img src="./assets/images/svg/delete.svg" alt="delete" class="ml-30">
+                            <p class="remove-comment fw_sm fs_lg mb-0 ml-5">Remove Comment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-24">
+                    <img src="./assets/images/svg/profile4.svg" alt="profile4">
+                    <div>
+                        <div class="box2 ml-20">
+                            <p class="username fw_md fs_lg text-dark">Username</p>
+                            <p class="comment fw_sm fs_lg ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-8">
+                            <img src="./assets/images/svg/delete.svg" alt="delete" class="ml-30">
+                            <p class="remove-comment fw_sm fs_lg mb-0 ml-5">Remove Comment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-24">
+                    <img src="./assets/images/svg/profile5.svg" alt="profile5">
+                    <div>
+                        <div class="box2 ml-20">
+                            <p class="username fw_md fs_lg text-dark">Username</p>
+                            <p class="comment fw_sm fs_lg ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-8">
+                            <img src="./assets/images/svg/delete.svg" alt="delete" class="ml-30">
+                            <p class="remove-comment fw_sm fs_lg mb-0 ml-5">Remove Comment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-24">
+                    <img src="./assets/images/svg/profile6.svg" alt="profile6">
+                    <div>
+                        <div class="box2 ml-20">
+                            <p class="username fw_md fs_lg text-dark">Username</p>
+                            <p class="comment fw_sm fs_lg ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-8">
+                            <img src="./assets/images/svg/delete.svg" alt="delete" class="ml-30">
+                            <p class="remove-comment fw_sm fs_lg mb-0 ml-5">Remove Comment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-24">
+                    <img src="./assets/images/svg/profile7.svg" alt="profile7">
+                    <div>
+                        <div class="box2 ml-20">
+                            <p class="username fw_md fs_lg text-dark">Username</p>
+                            <p class="comment fw_sm fs_lg ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-8">
+                            <img src="./assets/images/svg/delete.svg" alt="delete" class="ml-30">
+                            <p class="remove-comment fw_sm fs_lg mb-0 ml-5">Remove Comment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row row-gap-5">
+                <div class="col-lg-6 col-12">
+                    <img src="./assets/images/svg/footer-logo.svg" alt="logo" class="footer-logo">
+                    <p class="footer-description text-light fw_sm fs_md">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit.
+                        Suspendisse maximus
+                        ipsum sem.c
+                    </p>
+                    <div class="d-flex">
+                        <img src="./assets/images/svg/insta.svg" alt="instagram" class="social-media">
+                        <img src="./assets/images/svg/facebook.svg" alt="facebook" class="social-media">
+                        <img src="./assets/images/svg/twitter.svg" alt="twitter" class="social-media">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="row row-gap-5">
+                        <div class="col-lg-6 col-12 d-flex">
+                            <ul>
+                                <li class="main fw_xl fs_md text-light">SERVICES</li>
+                                <li class="sub-main text-light fw_sm fs_sm">About</li>
+                                <li class="sub-main text-light fw_sm fs_sm">News</li>
+                                <li class="sub-main text-light fw-sm fs_sm">ullamcorper</li>
+                                <li class="sub-main text-light fw_sm fs_m">Contact</li>
+                            </ul>
+                            <ul>
+                                <li class="main fw_xl fs_md text-light">EVENTS</li>
+                                <li class="sub-main text-light fw_sm fs_sm">ullamcorper</li>
+                                <li class="sub-main text-light fw_sm fs-sm">ullamcorpers</li>
+                                <li class="sub-main text-light fw_sm fs_sm">ullamcorper</li>
+                                <li class="sub-main text-light fw_sm fs_sm">ullamcorper</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6  col-12">
+                            <h3 class="main fw_xl fs_md text-light">GALLERY</h3>
+                            <div class="grid-parent1">
+                                <div class=" footer-div1"> <img src="./assets/images/png/footer-img1.png" alt="image1"
+                                        class="w-100">
+                                </div>
+                                <div class="footer-div2"><img src="./assets/images/png/footer-img2.png" alt="image2"
+                                        class="w-100">
+                                </div>
+                                <div class="footer-div3"><img src="./assets/images/png/footer-img3.png" alt="image3"
+                                        class="w-100">
+                                </div>
+                                <div class="footer-div4"><img src="./assets/images/png/footer-img4.png" alt="image4"
+                                        class="w-100">
+                                </div>
+                                <div class="footer-div5"><img src="./assets/images/png/footer-img5.png" alt="image5"
+                                        class="w-100">
+                                </div>
+                                <div class="footer-div6 d-flex justify-content-center align-items-center "><a href=""
+                                        class="show-more fw_xl fs_sm text-light">Show<br> More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p class="text-light d-flex justify-content-center fs_md fw_sm mt-10">© Credits of companyName belong to
+                    companyName.</p>
             </div>
         </div>
     </section>

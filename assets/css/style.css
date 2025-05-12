@@ -3,21 +3,15 @@
 * {
     font-family: "Poppins", sans-serif !important;
     padding: 0;
-    margin: 0px;
-}
-
-.container {
-    max-width: 1320px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
 }
 
 .nav-attribute {
     font-family: Poppins;
     line-height: 100%;
-
 }
 
 .nav-attribute {
@@ -51,13 +45,23 @@
 }
 
 .nav-button:hover {
-    background-color: #01C8FF;
-    color: #293FC6 !important;
+    background-color: #EAEDFF;
+    color: #2C49FE !important;
     scale: 1.06;
+}
+
+nav {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    box-shadow: 0px 8px 35px 0px #0000000D !important;
 }
 
 .mt-71 {
     margin-top: 71px !important;
+}
+
+.pt-47 {
+    padding-top: 47px;
 }
 
 .mt-67 {
@@ -103,7 +107,6 @@
     color: #666666;
     font-family: Poppins;
     line-height: 150%;
-
 }
 
 .ml-10 {
@@ -129,6 +132,15 @@
 .ml-20 {
     margin-left: 20px;
 }
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
 
 .gallery {
     font-family: Poppins;
@@ -181,13 +193,6 @@
 
 }
 
-.new-comment {
-    font-family: Poppins;
-    color: #797979;
-    line-height: 150%;
-
-}
-
 .post-comment {
     font-family: Poppins;
     line-height: 150%;
@@ -197,43 +202,185 @@
     padding: 13px 28px;
     border-radius: 36px;
     transition: all 100ms linear;
+    position: absolute !important;
+    right: 0.75% !important;
+    top: 46% !important;
 }
 
 .post-comment:hover {
-   background-color:#4B8DFF;
+    background-color: #4B8DFF;
 }
 
-.box1 {
-    border: 1px solid #a7aabe;
+.profile {
+    position: absolute !important;
+    left: 0.75%;
+    top: 45%;
+}
+
+.user-name {
+    font-family: Poppins;
+    line-height: 150%;
+    font-weight: bolder !important;
+}
+
+.comment {
+    font-family: Poppins;
+    line-height: 150%;
+    color: #606162;
+}
+
+.box2 {
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #F1F2F5;
+    /* gap: 10px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.remove-comment {
+    font-family: Poppins;
+    line-height: 150%;
+    color: #666666;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.footer {
+
+    background-color: #000000;
+    padding-top: 81px;
+    margin-top: 118px;
+    width: 100%;
+}
+
+.footer-logo:hover {
+    cursor: pointer;
+    scale: 1.04;
+}
+
+.footer-description {
+    font-family: Poppins;
+    line-height: 100%;
+    padding-top: 36px;
+    max-width: 346px;
+}
+
+.social-media {
+    margin-right: 15px;
+}
+
+.social-media:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.main {
+    font-family: Poppins;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+
+.sub-main {
+    font-family: Poppins;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.sub-main:hover {
+    cursor: pointer;
+}
+
+.grid-parent1 {
+    display: grid;
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+}
+
+
+.footer-div6 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: #18205C;
+}
+
+.show-more {
+    font-family: Poppins;
+    line-height: 150%;
+    text-align: center;
+
+}
+
+.max-w-572 {
+    max-width: 572px;
+}
+
+.feed {
+    font-family: Poppins;
+    line-height: 150%;
+    text-wrap: nowrap;
+}
+
+.feed-button {
+    border-radius: 23px;
+    border: none;
+    padding: 11px 28px;
+    background-color: #2C49FE;
+    transition: all 100ms linear;
+    margin-right: 5px;
+}
+
+.feed-button:hover {
+    background: #EAEDFF;
+    color: #2C49FE !important;
+}
+
+.max-w-500 {
+    max-width: 500px;
+}
+
+.main-img:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.main1-img:hover {
+    scale: 1.02;
+    cursor: pointer;
+}
+
+.input {
     border-radius: 35px;
-    padding-top: 8px ;
-    padding-bottom: 8px;
+    border: 1px solid #9CA1BE;
+    padding-top: 7px;
+    padding-bottom: 7px;
     padding-right: 7px;
-    padding-left: ;
+    padding-left: 85px;
     margin-top: 47px;
+    height: 70px;
+    width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+::placeholder {
+    font-family: Poppins;
+    font-weight: var(--fw-400);
+    font-size: var(--fs-20px);
+    line-height: 150%;
+}
 
 @media(max-width:992px) {
     .menu-icon {
@@ -300,4 +447,8 @@
     .activeNavBar .menu-icon {
         height: 34px;
     }
+}
+.video-radius{
+    border-radius: 30px;
+    
 }
