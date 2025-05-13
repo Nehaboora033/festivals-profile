@@ -44,3 +44,31 @@
 .fw_sm {
     font-weight: var(--fw-sm);
 }
+@media(min-width:576px) {
+
+}
+@media(min-width:768px) {
+
+}
+@media(min-width:992px) {
+
+}
+@media(min-width:1200px){
+    
+
+}
+@media(min-width:1400px){
+    :root {
+            --fs-2xl: 48px;
+            --fs-xl: 20px;
+            --fs-md: 16px;
+            --fs-lg: 14px;
+            --fs-sm: 12px;
+    
+            --fw-xl: 700;
+            --fs-lg: 600;
+            --fs-md: 500;
+            --fs-sm: 400;
+    
+        }
+}
