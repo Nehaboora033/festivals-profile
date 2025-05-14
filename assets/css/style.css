@@ -10,7 +10,7 @@
 }
 
 .nav-attribute {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 100%;
 }
 
@@ -39,7 +39,7 @@
     background-color: #2C49FE;
     border: none;
     line-height: 150%;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     margin-left: 50px;
     transition: all 100ms linear;
 }
@@ -67,7 +67,7 @@ nav {
 }
 
 .path {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     color: #666666;
 }
@@ -81,20 +81,20 @@ nav {
 }
 
 .name {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-weight: bold !important;
     line-height: 150%;
     text-wrap: nowrap !important;
 }
 
 .description {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     color: #666666;
 }
 
 .description1 {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     color: #666666;
     text-align: center;
@@ -104,16 +104,12 @@ nav {
 
 .data {
     color: #666666;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
 }
 
 .ml-10 {
     margin-left: 10px;
-}
-
-.mt-130 {
-    margin-top: 130px !important;
 }
 
 .mt-22 {
@@ -143,9 +139,7 @@ ul {
 
 
 .gallery {
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 48px;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     font-weight: bold !important;
     text-align: center;
@@ -184,7 +178,7 @@ ul {
 }
 
 .tell-us {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     text-align: center;
     font-weight: bold !important;
@@ -192,7 +186,7 @@ ul {
 }
 
 .post-comment {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     color: white;
     background-color: #2C49FE;
@@ -216,13 +210,13 @@ ul {
 }
 
 .user-name {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     font-weight: bolder !important;
 }
 
 .comment {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     color: #606162;
 }
@@ -240,7 +234,7 @@ ul {
 }
 
 .remove-comment {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     color: #666666;
 }
@@ -271,7 +265,7 @@ ul {
 }
 
 .footer-description {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 100%;
     padding-top: 36px;
     max-width: 346px;
@@ -287,13 +281,13 @@ ul {
 }
 
 .main {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 100%;
     margin-bottom: 12px;
 }
 
 .sub-main {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 12px;
     font-size: 12px;
     line-height: 100%;
@@ -317,7 +311,7 @@ ul {
 }
 
 .show-more {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     text-align: center;
 
@@ -328,7 +322,7 @@ ul {
 }
 
 .feed {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     line-height: 150%;
     text-wrap: nowrap;
 }
@@ -386,7 +380,7 @@ ul {
 }
 
 ::placeholder {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-weight: var(--fw-400);
     font-size: var(--fs-20px);
     line-height: 150%;
@@ -491,4 +485,10 @@ ul {
     }
 
 
+}
+
+@media(min-width:992px) {
+    .mt-lg-130 {
+        margin-top: 130px;
+    }
 }
